@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>descriptionDialog</class>
+ <widget class="QDialog" name="descriptionDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>500</width>
+    <height>350</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Opis szyfrowania homofonicznego</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPlainTextEdit" name="plainTextEdit">
+     <property name="maximumSize">
+      <size>
+       <width>500</width>
+       <height>300</height>
+      </size>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+     <property name="plainText">
+      <string>- Szyfr homofoniczny polega na zamianie każdego znaku jawnego na znak z zbioru tajnego. 
+- Klucz składa się z znaków z alfabetu angielskiego oraz z jednej, bądź więcej znaków jako zamiennik.
+- Zamiennikami mogą być pojedyncze znaki jak również kombinacja znaków.
+- Liczba zamienników zależy od częstotliwości występowywania znaku w danym języku
+- Znak ze zbioru jest wybierany losowo.
+Po lewej stronie znajduje się tekst jawny, a po prawej zaszyfrowany tekst.
+- By zamienić tekst jawny na szyfrowany korzystamy z przycisku &quot;Zaszyfruj&quot;.
+- By zamienić tekst zaszyfrowany na jawny korzystamy z przycisku &quot;Odszyfruj&quot;.</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
