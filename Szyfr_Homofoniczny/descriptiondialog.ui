@@ -54,7 +54,8 @@
 - Znak ze zbioru jest wybierany losowo.
 Po lewej stronie znajduje się tekst jawny, a po prawej zaszyfrowany tekst.
 - By zamienić tekst jawny na szyfrowany korzystamy z przycisku &quot;Zaszyfruj&quot;.
-- By zamienić tekst zaszyfrowany na jawny korzystamy z przycisku &quot;Odszyfruj&quot;.</string>
+- By zamienić tekst zaszyfrowany na jawny korzystamy z przycisku &quot;Odszyfruj&quot;.
+- By zmienić klucz korzystamy z przycisku &quot;Zmień klucz&quot;.</string>
      </property>
     </widget>
    </item>

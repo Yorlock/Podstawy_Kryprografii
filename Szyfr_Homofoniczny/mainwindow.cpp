@@ -5,6 +5,8 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    QCoreApplication::setApplicationName("Szyfr Homofoniczny");
+    setWindowTitle( QCoreApplication::applicationName() );
     srand(time(0));
     if(!getKeyFromFile()) exit(0);
 }

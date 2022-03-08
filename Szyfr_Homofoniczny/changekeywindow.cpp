@@ -6,6 +6,8 @@ changeKeyWindow::changeKeyWindow(QMainWindow *parent, QString text) :
     ui(new Ui::changeKeyWindow)
 {
     ui->setupUi(this);
+    QCoreApplication::setApplicationName("Szyfr Homofoniczny");
+    setWindowTitle( QCoreApplication::applicationName() );
     ui->textEdit->setText(text);
 }
 
