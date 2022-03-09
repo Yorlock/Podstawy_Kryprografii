@@ -165,7 +165,11 @@ std::string MainWindow::findCode(char text)
     for(auto pair : code)
     {
         if(pair.first == helper)
-            return pair.second[rand()%(pair.second.size() - 1)];
+        {
+            if(pair.second.size() == 0)
+                return helper;
+            return pair.second[rand()%pair.second.size()];
+        }
     }
     return helper;
 }
